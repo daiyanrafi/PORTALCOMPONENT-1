@@ -9,6 +9,7 @@ import {
   TableCell,
   TableBody,
   Paper,
+  Typography,
 } from '@mui/material';
 import InputPage from './InputPage';
 
@@ -64,8 +65,13 @@ const ColumnPage: React.FC = () => {
   return (
     <Grid container justifyContent="center" alignItems="flex-start" style={{ height: '100vh', marginTop: '40px' }}>
       <Grid item xs={8}>
+      <div style={{ textAlign: 'center', backgroundColor: '#dded98', padding: '10px' }}>
+        <Typography variant="h4" gutterBottom>
+          Form Case
+        </Typography>
+      </div>
         {currentPage === 0 && (
-          <Button variant="contained" color="primary" onClick={() => setCurrentPage(1)}>
+          <Button variant="contained" color="primary" onClick={() => setCurrentPage(1)} sx={{ marginTop: '10px' }}>
             Add Details
           </Button>
         )}
