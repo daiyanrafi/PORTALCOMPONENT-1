@@ -20,7 +20,7 @@ const Dashboard: React.FunctionComponent = () => {
       >
         <Pivot>
           <PivotItem
-            headerText="Active Cases"
+            headerText="Active Cases-4"
             headerButtonProps={{
               "data-order": 1,
               "data-title": "Active Cases",
@@ -29,7 +29,7 @@ const Dashboard: React.FunctionComponent = () => {
           >
             <MemberCase documentCards={caseDetails} />
           </PivotItem>
-          <PivotItem headerText="Monthly Summary">
+          <PivotItem headerText="Monthly Summary - 5">
             <MemeberMonthlySummary monthlyData={caseMonthlyDetails} />
           </PivotItem>
         </Pivot>

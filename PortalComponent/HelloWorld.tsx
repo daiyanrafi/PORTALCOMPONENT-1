@@ -3,6 +3,7 @@ import { IInputs } from "./generated/ManifestTypes";
 import Dashboard from "./modules/portal-member/Dashboard";
 import CaseSummary from "./modules/portal-member/CaseSummary";
 import CaseView from "./modules/portal-member/CaseView";
+import ColumnPage from "./modules/portal-form/ColumnPage";
 
 export default class HelloWorld extends React.Component<
   ComponentFramework.Context<IInputs>,
@@ -21,6 +22,7 @@ export default class HelloWorld extends React.Component<
         <Dashboard />
         <CaseSummary/>
         <CaseView/>
+        <ColumnPage/>
       </div>
     );
   }

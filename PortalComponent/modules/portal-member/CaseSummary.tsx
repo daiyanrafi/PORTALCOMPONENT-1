@@ -36,7 +36,7 @@ const CaseSummary: React.FunctionComponent = () => {
               <Stack.Item>
                 <Pivot aria-label="Basic Pivot Example">
                   <PivotItem
-                    headerText="Active cases"
+                    headerText="Active cases-2"
                     headerButtonProps={{
                       "data-order": 1,
                       "data-title": "Active cases",
@@ -44,7 +44,7 @@ const CaseSummary: React.FunctionComponent = () => {
                   >
              
                   </PivotItem>
-                  <PivotItem headerText="Monthly summary">
+                  <PivotItem headerText="Monthly summary-1">
                     <MonthlySummary />
                   </PivotItem>
                 </Pivot>
